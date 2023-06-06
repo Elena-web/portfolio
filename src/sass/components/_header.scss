@@ -1,0 +1,86 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: -35rem;
+    height: 100vh;
+    background-color: $color-white;
+    border-right: $color-border-bold;
+    width: 35rem;
+    padding: 3rem 2rem;
+    /*padding-bottom: 9rem;*/
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    transition: .2s linear !important;  
+    z-index: 1000;
+}
+
+.header .logo {
+    text-transform: uppercase;
+    border-bottom: $color-border-bold;
+    font-weight: bolder;
+    font-size: 4.5rem;
+}
+
+.header .navbar {
+    width: 100%;
+}
+
+.header .navbar a {
+    display: block;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    margin: .5rem;
+
+}
+
+.header .navbar a:hover {
+    background-color: $color-yellow;
+}
+
+.header .follow a{
+    font-size: 3rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: .6s linear !important;
+}
+
+.header .follow a:hover {
+    transform: rotate(360deg);     
+}
+
+#menu-btn {
+    position: absolute;
+    top: 0;
+    right: -5.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    background-color: $color-black;
+    color: $color-white;
+}
+
+#menu-btn.fa-times {
+    @include media-mobilesmall{
+        right: 0;
+    }
+}
+
+
+.header.active {
+    left: 0;
+    @include media-mobilesmall {
+        padding-top: 7rem;
+    }  
+}
+
+
+
+
+
+
+

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/sass/style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- aos css link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <title>Портфолио</title>
+</head>
+<body>
+
+<!-- BEGIN HEADER -->
+<header class="header">
+    
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#home" class="logo">Портфолио</a>
+
+    <nav class="navbar">
+        <a href="#home" class="active">главная</a>
+        <a href="#about">обо мне</a>
+        <a href="#services">навыки</a>
+        <a href="#portfolio">портфолио</a>
+        <a href="#contact">контакты</a>
+    </nav>
+
+    <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>        
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/elena-pavlovich-0a3491232/" class="fab fa-linkedin"></a>
+        <a href="https://github.com/Elena-web" class="fab fa-github"></a>
+    </div>
+</header>
+<!-- END HEADER -->
+
+<!-- BEGIN SECTION HOME -->
+<section class="home" id="home">
+    <div class="image" data-aos="fade-right">
+        <img src="img/photo.jpg" alt="photo">
+    </div>
+
+    <div class="content">
+        <h3 data-aos="fade-up">Привет, меня зовут Елена</h3>
+        <span data-aos="fade-up">Front-end developer</span>
+        <p data-aos="fade-up" class="content__txt">Я любопытный и очень замотивированный начинающий фронтенд разработчик. Постоянно учусь, развиваюсь и иду навстречу новым возможностям! На данный момент я в поисках работы.</p>
+        <a data-aos="fade-up" href="#about" class="btn">обо мне</a>
+    </div>    
+</section>
+<!-- END SECTION HOME -->
+
+<!-- BEGIN SECTION ABOUT -->
+<section class="about" id="about">
+    <h1 class="heading" data-aos="fade-up"> <span>обо мне</span></h1>
+    <div class="biography">
+        <p data-aos="fade-up">Исполнительна, ответственна, люблю работать в команде, инициативна и обладаю отличной стрессоустойчивостью.</p>
+        
+        <div class="bio">
+            <h3 data-aos="zoom-in"> <span>name : </span> Elena Pavlovich </h3>
+            <h3 data-aos="zoom-in"> <span>email : </span> elena-pavlovichh@mail.ru </h3>
+            <h3 data-aos="zoom-in"> <span>adress : </span> Minsk, Belarus </h3>
+            <h3 data-aos="zoom-in"> <span>age : </span> 33 years </h3>
+            <h3 data-aos="zoom-in"> <span>experience : </span> 1+ </h3>
+        </div>
+
+        <!--<a href="#" class="btn" data-aos="fade-up">Download CV</a>-->
+
+    </div>
+
+    <div class="skills" data-aos="fade-up">
+        <h1 class="heading"> <span>skills</span></h1>
+
+        <div class="progress">
+            <div class="bar" data-aos="fade-left"><h3><span>HTML</span> <span>95%</span></h3></div>
+            <div class="bar" data-aos="fade-right"><h3><span>CSS</span> <span>90%</span></h3></div>
+            <div class="bar" data-aos="fade-left"><h3><span>Sass</span> <span>85%</span></h3></div>
+            <div class="bar" data-aos="fade-right"><h3><span>JavaScript</span> <span>55%</span></h3></div>
+            <div class="bar" data-aos="fade-left"><h3><span>PHP</span> <span>30%</span></h3></div>
+        </div>
+    </div>
+
+    <div class="edu-exp">
+
+        <h1 class="heading" data-aos="fade-up"> <span>образование & опыт работы</span></h1>
+
+        <div class="row">
+            <div class="box-container">
+                <h3 class="title" data-aos="fade-right">образование</h3>
+                <div class="box" data-aos="fade-right">
+                    <span>( 2007 - 2012 )</span>
+                    <h3>МГПУ им. И.П. Шамякина</h3>
+                    <p>Инженерно-педагогический факультет,<br> преподаватель экономических дисциплин</p>
+                </div>
+                <div class="box" data-aos="fade-right">
+                    <span>( 2022 - 2022 )</span>
+                    <h3>Вёрстка сайтов, Webcademy</h3>
+                    <p>Вёрстка сайтов HTML&CSS</p>
+                </div>
+                
+            </div>
+
+            <div class="box-container">
+                <h3 class="title" data-aos="fade-left">Опыт работы</h3>
+                <div class="box" data-aos="fade-left">
+                    <span>( 2010 - 2014 )</span>
+                    <h3>ООО "Систем Хаус"</h3>
+                    <p>Бухгалтер</p>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <span>( 2014 - 2022 )</span>
+                    <h3>Индивидуальный предприниматель</h3>
+                    <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora molestias autem, repellendus amet debitis architecto maiores mollitia, quasi aliquam perferendis temporibus? Sapiente ipsum aspernatur vero nam repudiandae mollitia consequuntur eos.</p>-->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>    
+<!-- END SECTION ABOUT -->
+
+<!-- BEGIN SECTION SERVICES -->
+<section class="services" id="services"> 
+
+    <h1 class="heading" data-aos="fade-up"> <span>Навыки</span> </h1> 
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in">
+           <i class="fas fa-code"></i> 
+           <h3>HTML</h3>
+           <p>HTML5: адаптивная кроссбраузерная вёрстка</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <i class="fa-brands fa-css3-alt"></i> 
+            <h3>CSS, SASS</h3>
+            <p>Адаптив, эффекты и анимации.<br>Работа с SVG анимацией</p>
+         </div>
+
+        <div class="box" data-aos="zoom-in">
+            <i class="fa-brands fa-php"></i>
+            <h3>PHP</h3>
+            <p>Основы PHP<br>Работа с формами</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <i class="fa-brands fa-square-js"></i>
+            <h3>JavaScript</h3>
+            <p>Базовые знания JS</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <i class="fa-brands fa-square-git"></i> 
+            <h3>GIT</h3>
+            <p>Знание системы контроля версий Git</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <i class="fab fa-wordpress"></i> 
+            <h3>wordpress</h3>
+            <p>Посадка сайтов на Wordpress</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- END SECTION SERVICES -->
+
+<!-- BIGIN SECTION PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading" data-aos="fade-up"> <span>портфолио</span> </h1> 
+
+    <div class="box-container">
+        <a href="https://elena-web.github.io/furniture/">
+            <div class="box" data-aos="zoom-in">
+                <img src="img/img-1.png" alt="Furniture">
+                <h3>Furniture</h3>
+                <span>( 2023 )</span>
+            </div>
+        </a>
+        <a href="https://elena-web.github.io/rent/">
+            <div class="box" data-aos="zoom-in">
+                <img src="img/img-3.png" alt="Dubai">
+                <h3>Rental property in Dubai</h3>
+                <span>( 2023 )</span>
+            </div>
+        </a>
+        
+        <a href="https://elena-web.github.io/food/">
+            <div class="box" data-aos="zoom-in">
+                <img src="img/img-2.png" alt="Food">
+                <h3>Доставка еды</h3>
+                <span>( 2023 )</span>
+            </div>
+        </a>
+        
+        <a href="https://elena-web.github.io/forest/">
+            <div class="box" data-aos="zoom-in">
+                <img src="img/img-4.png" alt="Travel">
+                <h3>Туристическое агентство</h3>
+                <span>( 2022 )</span>
+            </div>
+        </a>
+        
+        <a href="https://elena-web.github.io/unit/">
+            <div class="box" data-aos="zoom-in">
+                <img src="img/img-5.png" alt="Unit">
+                <h3>Юнит</h3>
+                <span>( 2022 )</span>
+            </div>
+        </a>
+        
+        <a href="https://elena-web.github.io/webovio/">
+            <div class="box" data-aos="zoom-in">
+                <img src="img/img-6.png" alt="Webovio">
+                <h3>Webovio</h3>
+                <span>( 2022 )</span>
+            </div>
+        </a>
+        
+
+    </div>
+</section>
+<!-- END SECTION PORTFOLIO -->
+
+<!-- BEGIN SECTION CONTACT -->
+<section class="contact">
+    <h1 class="heading" data-aos="fade-up"> <span>Напишите мне</span> </h1>
+
+    <form action="mail.php" method="post">
+        <div class="flex">
+            <input data-aos="fade-right" type="text" name="name" placeholder="введите ваше имя" class="box" required>
+            <input data-aos="fade-left" type="email" name="email" placeholder="введите ваш email" class="box" required>
+        </div>
+        <input data-aos="fade-up" type="number" min="0" name="number" placeholder="введите ваш номер" class="box" required>
+        <textarea data-aos="fade-up" name="message" class="box" cols="30" rows="10" placeholder="введите ваше сообщение"></textarea>
+        <input data-aos="zoom-in" type="submit" value="отправить сообщение" name="send" class="btn">
+    </form>
+
+    <div class="box-container">
+        <a href="tel:80298301280">
+           <div class="box" data-aos="zoom-in">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+37529 830 12 80</p>
+            </div> 
+        </a>
+        
+        <a href="mailto:elena-pavlovichh@mail.ru">
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>elena-pavlovichh@mail.ru</p>
+            </div>
+        </a>
+        
+
+        <div class="box" data-aos="zoom-in">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>adress</h3>
+            <p>Minsk, Belarus</p>
+        </div>
+
+    </div>
+</section>
+<!-- END SECTION CONTACT -->
+
+<div class="credit"> &copy; copyright @by <span>Elena Pavlovich</span> </div>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script> 
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+   AOS.init({
+      duration:800,
+      delay:300
+   });
+
+</script>   
+</body>
+</html>

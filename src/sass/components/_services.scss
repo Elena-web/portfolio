@@ -1,0 +1,41 @@
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.services .box-container .box {
+    padding:  3rem 2rem;
+    border: $color-border-light;
+}
+
+.services .box-container .box i {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.services .box-container .box h3 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: $color-yellow;
+    font-weight: normal;
+}
+
+.services .box-container .box p {
+    line-height: 2;
+    font-size: 1.7rem;
+}
+
+.services .box-container .box:hover {
+    background-color: $color-black;
+}
+
+.services .box-container .box:hover i {
+    background-color: $color-white;
+}
+
+.services .box-container .box:hover p {
+    color: $color-white;
+}
