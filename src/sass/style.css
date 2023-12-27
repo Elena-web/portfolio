@@ -1,7 +1,6 @@
 /*ABSTRACTS*/
 /*$content-width: 1399px;
 $tablet-width: 1199px;*/
-/*$mobile-width: 767px;*/
 /*BASE*/
 * {
   font-family: "Rubik", sans-serif;
@@ -194,11 +193,12 @@ section {
 }
 
 .home .image img {
-  height: 65rem;
+  width: 100%;
+  height: auto;
   padding: 2rem;
   border: 0.5rem solid #000;
 }
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .home .image img {
     height: auto;
     width: 100%;

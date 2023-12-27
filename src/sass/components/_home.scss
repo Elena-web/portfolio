@@ -10,11 +10,12 @@
     flex: 1 1 40rem;
 }
 
-.home .image img {       
-    height: 65rem;
+.home .image img {
+    width: 100%;     
+    height: auto;
     padding: 2rem;
     border: $color-border-bold;
-    @include media-mobilesmall {
+    @include media-mobile {
         height: auto;
         width: 100%;
     }
